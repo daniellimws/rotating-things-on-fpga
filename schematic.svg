@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 1720 500"
+     clip="0 1720 500 0"
+     preserveAspectRatio="xMidYMid meet"
+     version="1.1"
+     baseProfile="full"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:ev="http://www.w3.org/2001/xml-events"
+     xml:space="preserve">
+<title>Top_Student</title>
+<desc>Nlview schematic (SVG)</desc>
+<clipPath id="clippingbbox">
+<rect x="0" y="0" width="1720" height="500" />
+</clipPath>
+<g stroke="#19b400"
+   stroke-width="1"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-miterlimit="4"
+   stroke-dasharray="none"
+   stroke-dashoffset="0"
+   fill="none"
+   font-family="Helvetica"
+   font-style="normal"
+   font-size="12"
+   writing-mode="lr-tb"
+   cursor="crosshair"
+   clip-path="url(#clippingbbox)">
+<path d="M0 0h1720v501h-1720z" stroke="none" fill="white" />
+<g stroke="black">
+<path d="M136 350l-7 7h-14v-14h14z" />
+<text x="111" y="350" fill="black" stroke-width="0" text-anchor="end" dy="3.85">J_MIC3_Pin3</text>
+<path d="M136 370l-7 7h-14v-14h14z" />
+<text x="111" y="370" fill="black" stroke-width="0" text-anchor="end" dy="3.85">CLK100MHZ</text>
+<path d="M136 390l-7 7h-14v-14h14z" />
+<text x="111" y="390" fill="black" stroke-width="0" text-anchor="end" dy="3.85">btnC</text>
+<path d="M136 470l-7 7h-14v-14h14z" />
+<text x="111" y="470" fill="black" stroke-width="0" text-anchor="end" dy="3.85">sw</text>
+<path d="M286 398h60v42h-60z" stroke="none" fill="#dfebf8" />
+<path d="M286 398h60v42h-60z" />
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M297 403v12" />
+<path d="M291 409h12" />
+</g>
+<g stroke="black">
+<path d="M289 401h16v16h-16z" />
+<text x="316" y="396" fill="black" stroke-width="0" text-anchor="middle">clock_single_pulse</text>
+<text x="316" y="442" fill="black" stroke-width="0" text-anchor="middle" dy="7.7">Clock_Single_Pulse</text>
+<path d="M276 430h10" />
+<text x="284" y="429" fill="black" stroke-width="0" font-size="10" text-anchor="end">basys_clock</text>
+<path d="M356 430h-10" />
+<text x="348" y="429" fill="black" stroke-width="0" font-size="10">clock</text>
+<path d="M296 430h-10" />
+<path d="M336 430h10" />
+<path d="M436 60v-4" />
+<path d="M428 56h16" />
+<path d="M736 88h60v62h-60z" stroke="none" fill="#dfebf8" />
+<path d="M736 88h60v62h-60z" />
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M747 93v12" />
+<path d="M741 99h12" />
+</g>
+<g stroke="black">
+<path d="M739 91h16v16h-16z" />
+<text x="766" y="86" fill="black" stroke-width="0" text-anchor="middle">clock_6p25m</text>
+<text x="766" y="152" fill="black" stroke-width="0" text-anchor="middle" dy="7.7">Clock_Divider</text>
+<path d="M726 120h10" />
+<text x="734" y="119" fill="black" stroke-width="0" font-size="10" text-anchor="end">basys_clock</text>
+<path d="M806 120h-10" />
+<text x="798" y="119" fill="black" stroke-width="0" font-size="10">clock</text>
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M726 140h10" />
+<text x="734" y="139" fill="black" stroke-width="0" font-size="10" text-anchor="end">count_max[15:0]</text>
+<text x="640" y="139" fill="black" stroke-width="0" font-size="8" text-anchor="end">V=B&quot;0000000000000111&quot;</text>
+</g>
+<g stroke="black">
+<path d="M746 120h-10" />
+<path d="M786 120h10" />
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M746 140h-10" />
+<path d="M736 218h60v62h-60z" stroke="none" fill="#dfebf8" />
+</g>
+<g stroke="black">
+<path d="M736 218h60v62h-60z" />
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M747 223v12" />
+<path d="M741 229h12" />
+</g>
+<g stroke="black">
+<path d="M739 221h16v16h-16z" />
+<text x="766" y="216" fill="black" stroke-width="0" text-anchor="middle">clock_20k</text>
+<text x="766" y="282" fill="black" stroke-width="0" text-anchor="middle" dy="7.7">Clock_Divider</text>
+<path d="M726 250h10" />
+<text x="734" y="249" fill="black" stroke-width="0" font-size="10" text-anchor="end">basys_clock</text>
+<path d="M806 250h-10" />
+<text x="798" y="249" fill="black" stroke-width="0" font-size="10">clock</text>
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M726 270h10" />
+<text x="734" y="269" fill="black" stroke-width="0" font-size="10" text-anchor="end">count_max[15:0]</text>
+<text x="640" y="269" fill="black" stroke-width="0" font-size="8" text-anchor="end">V=B&quot;0000100111000011&quot;</text>
+</g>
+<g stroke="black">
+<path d="M746 250h-10" />
+<path d="M786 250h10" />
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M746 270h-10" />
+</g>
+<g stroke="black">
+<path d="M448 310h16" />
+<path d="M451 313h10" />
+<path d="M454 316h4" />
+<path d="M736 378h60v62h-60z" stroke="none" fill="#dfebf8" />
+<path d="M736 378h60v62h-60z" />
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M747 383v12" />
+<path d="M741 389h12" />
+</g>
+<g stroke="black">
+<path d="M739 381h16v16h-16z" />
+<text x="766" y="376" fill="black" stroke-width="0" text-anchor="middle">nolabel_line47</text>
+<text x="766" y="442" fill="black" stroke-width="0" text-anchor="middle" dy="7.7">Single_Pulse</text>
+<path d="M726 410h10" />
+<text x="734" y="409" fill="black" stroke-width="0" font-size="10" text-anchor="end">button</text>
+<path d="M726 430h10" />
+<text x="734" y="429" fill="black" stroke-width="0" font-size="10" text-anchor="end">clock</text>
+<path d="M806 410h-10" />
+<text x="798" y="409" fill="black" stroke-width="0" font-size="10">out</text>
+<path d="M746 410h-10" />
+<path d="M746 430h-10" />
+<path d="M786 410h10" />
+<path d="M1046 48h60v182h-60z" stroke="none" fill="#dfebf8" />
+<path d="M1046 48h60v182h-60z" />
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M1057 53v12" />
+<path d="M1051 59h12" />
+</g>
+<g stroke="black">
+<path d="M1049 51h16v16h-16z" />
+<text x="1076" y="46" fill="black" stroke-width="0" text-anchor="middle">oled_display</text>
+<text x="1076" y="232" fill="black" stroke-width="0" text-anchor="middle" dy="7.7">Oled_Display</text>
+<path d="M1036 120h10" />
+<text x="1044" y="119" fill="black" stroke-width="0" font-size="10" text-anchor="end">clk</text>
+<path d="M1116 80h-10" />
+<text x="1108" y="79" fill="black" stroke-width="0" font-size="10">cs</text>
+<path d="M1116 100h-10" />
+<text x="1108" y="99" fill="black" stroke-width="0" font-size="10">d_cn</text>
+<path d="M1116 140h-10" />
+<text x="1108" y="139" fill="black" stroke-width="0" font-size="10">pmoden</text>
+<path d="M1036 160h10" />
+<text x="1044" y="159" fill="black" stroke-width="0" font-size="10" text-anchor="end">reset</text>
+<path d="M1116 160h-10" />
+<text x="1108" y="159" fill="black" stroke-width="0" font-size="10">resn</text>
+<path d="M1116 180h-10" />
+<text x="1108" y="179" fill="black" stroke-width="0" font-size="10">sclk</text>
+<path d="M1116 200h-10" />
+<text x="1108" y="199" fill="black" stroke-width="0" font-size="10">sdin</text>
+<path d="M1116 220h-10" />
+<text x="1108" y="219" fill="black" stroke-width="0" font-size="10">vccen</text>
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M1036 140h10" />
+<text x="1044" y="139" fill="black" stroke-width="0" font-size="10" text-anchor="end">pixel_data[15:0]</text>
+<path d="M1116 120h-10" />
+<text x="1108" y="119" fill="black" stroke-width="0" font-size="10">pixel_index[12:0]</text>
+</g>
+<g stroke="black">
+<path d="M1056 120h-10" />
+<path d="M1096 80h10" />
+<path d="M1096 100h10" />
+<path d="M1096 140h10" />
+<path d="M1056 160h-10" />
+<path d="M1096 160h10" />
+<path d="M1096 180h10" />
+<path d="M1096 200h10" />
+<path d="M1096 220h10" />
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M1056 140h-10" />
+<path d="M1096 120h10" />
+</g>
+<g stroke="black">
+<path d="M898 260h16" />
+<path d="M901 263h10" />
+<path d="M904 266h4" />
+<path d="M1046 298h60v82h-60z" stroke="none" fill="#dfebf8" />
+<path d="M1046 298h60v82h-60z" />
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M1057 303v12" />
+<path d="M1051 309h12" />
+</g>
+<g stroke="black">
+<path d="M1049 301h16v16h-16z" />
+<text x="1076" y="296" fill="black" stroke-width="0" text-anchor="middle">audio_capture</text>
+<text x="1076" y="382" fill="black" stroke-width="0" text-anchor="middle" dy="7.7">Audio_Capture</text>
+<path d="M1036 330h10" />
+<text x="1044" y="329" fill="black" stroke-width="0" font-size="10" text-anchor="end">CLK</text>
+<path d="M1036 350h10" />
+<text x="1044" y="349" fill="black" stroke-width="0" font-size="10" text-anchor="end">MISO</text>
+<path d="M1116 330h-10" />
+<text x="1108" y="329" fill="black" stroke-width="0" font-size="10">clk_samp</text>
+<path d="M1036 370h10" />
+<text x="1044" y="369" fill="black" stroke-width="0" font-size="10" text-anchor="end">cs</text>
+<path d="M1116 370h-10" />
+<text x="1108" y="369" fill="black" stroke-width="0" font-size="10">sclk</text>
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M1116 350h-10" />
+<text x="1108" y="349" fill="black" stroke-width="0" font-size="10">sample[11:0]</text>
+</g>
+<g stroke="black">
+<path d="M1056 330h-10" />
+<path d="M1056 350h-10" />
+<path d="M1096 330h10" />
+<path d="M1056 370h-10" />
+<path d="M1096 370h10" />
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M1096 350h10" />
+</g>
+<g stroke="black">
+<path d="M1306 40v-4" />
+<path d="M1298 36h16" />
+<path d="M1456 68h60v62h-60z" stroke="none" fill="#dfebf8" />
+<path d="M1456 68h60v62h-60z" />
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M1467 73v12" />
+<path d="M1461 79h12" />
+</g>
+<g stroke="black">
+<path d="M1459 71h16v16h-16z" />
+<text x="1486" y="66" fill="black" stroke-width="0" text-anchor="middle">volume_bar</text>
+<text x="1486" y="132" fill="black" stroke-width="0" text-anchor="middle" dy="7.7">Oled_Volume_Bar</text>
+<path d="M1446 100h10" />
+<text x="1454" y="99" fill="black" stroke-width="0" font-size="10" text-anchor="end">on</text>
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M1446 120h10" />
+<text x="1454" y="119" fill="black" stroke-width="0" font-size="10" text-anchor="end">pixel_index[12:0]</text>
+</g>
+<g stroke="black">
+<path d="M1466 100h-10" />
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M1466 120h-10" />
+<path d="M1456 360l40 15v30l-40 15z" stroke="none" fill="#ffffcc" />
+</g>
+<g stroke="black">
+<path d="M1456 360l40 15v30l-40 15z" />
+<text x="1476" y="358" fill="black" stroke-width="0" text-anchor="middle">led_i</text>
+<text x="1480" y="414" fill="black" stroke-width="0" dy="7.7">RTL_MUX</text>
+<path d="M1476 420v-8" />
+<text x="1474" y="420" fill="black" stroke-width="0" font-size="10" text-anchor="end" dy="6.5">S</text>
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M1446 380h10" />
+<text x="1454" y="379" fill="black" stroke-width="0" font-size="10" text-anchor="end">I0[11:0]</text>
+<text x="1402" y="379" fill="black" stroke-width="0" font-size="8" text-anchor="end">S=1&apos;b1</text>
+<path d="M1446 400h10" />
+<text x="1454" y="399" fill="black" stroke-width="0" font-size="10" text-anchor="end">I1[11:0]</text>
+<text x="1402" y="399" fill="black" stroke-width="0" font-size="8" text-anchor="end">S=default</text>
+<path d="M1506 390h-10" />
+<text x="1498" y="389" fill="black" stroke-width="0" font-size="10">O[11:0]</text>
+</g>
+<g stroke="black">
+<path d="M1298 460h16" />
+<path d="M1301 463h10" />
+<path d="M1304 466h4" />
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M1586 20v-7h14l7 7l-7 7h-14z" />
+<text x="1611" y="20" fill="black" stroke-width="0" dy="3.85">JX[7:0]</text>
+</g>
+<g stroke="black">
+<path d="M1586 330v-7h14l7 7l-7 7h-14z" />
+<text x="1611" y="330" fill="black" stroke-width="0" dy="3.85">J_MIC3_Pin1</text>
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M1586 390v-7h14l7 7l-7 7h-14z" />
+<text x="1611" y="390" fill="black" stroke-width="0" dy="3.85">led[11:0]</text>
+</g>
+<g stroke="black">
+<path d="M1586 480v-7h14l7 7l-7 7h-14z" />
+<text x="1611" y="480" fill="black" stroke-width="0" dy="3.85">J_MIC3_Pin4</text>
+</g>
+<g>
+<path d="M1446 400h-140v60" />
+<path d="M1036 140h-130v120" />
+</g>
+<g stroke-width="2">
+<path d="M726 140h-265" />
+</g>
+<g stroke="black">
+<path d="M461 140l-5 5" />
+</g>
+<g>
+<path d="M456 145v165" />
+</g>
+<g stroke="black">
+<path d="M456 275l5 -5" />
+</g>
+<g stroke-width="2">
+<path d="M461 270h265" />
+</g>
+<g>
+<path d="M1306 40v60h140" />
+<path d="M436 60v205" />
+</g>
+<g stroke="black">
+<path d="M436 265l5 5" />
+</g>
+<g stroke-width="2">
+<path d="M441 270h285" />
+</g>
+<g stroke="black">
+<path d="M436 135l5 5" />
+</g>
+<g stroke-width="2">
+<path d="M441 140h285" />
+</g>
+<g stroke="green" stroke-width="3">
+<path d="M1286 223v-203h300" />
+</g>
+<g>
+<path d="M1116 220h170" />
+<path d="M1116 200h170" />
+<path d="M1116 180h170" />
+<path d="M1116 160h170" />
+<path d="M1116 140h170" />
+<path d="M1116 100h170" />
+<path d="M1116 80h170" />
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M1287 215v10l-11 -5" stroke="none" fill="black" />
+<path d="M1287 195v10l-11 -5" stroke="none" fill="black" />
+<path d="M1287 175v10l-11 -5" stroke="none" fill="black" />
+<path d="M1287 155v10l-11 -5" stroke="none" fill="black" />
+<path d="M1287 135v10l-11 -5" stroke="none" fill="black" />
+<path d="M1287 95v10l-11 -5" stroke="none" fill="black" />
+<path d="M1287 75v10l-11 -5" stroke="none" fill="black" />
+</g>
+<g stroke="green" stroke-width="3">
+<path d="M1506 390h80" />
+<path d="M1116 350h170v30h160" />
+<path d="M1116 120h330" />
+</g>
+<g>
+<path d="M276 430h-120v-100h260" />
+<path d="M414 248h5v5h-5z" stroke="none" fill="#19b400" />
+<path d="M414 328h5v5h-5z" stroke="none" fill="#19b400" />
+<path d="M136 370h20" />
+<path d="M154 368h5v5h-5z" stroke="none" fill="#19b400" />
+<path d="M726 120h-310v210h620" />
+<path d="M416 250h310" />
+<path d="M1116 330h470" />
+<path d="M136 350h900" />
+<path d="M1116 370h150v110h320" />
+<path d="M136 390h40v-20h260v40h290" />
+<path d="M356 430h370" />
+<path d="M806 120h230" />
+<path d="M806 250h60v120h170" />
+<path d="M806 410h80v-250h150" />
+<path d="M136 470h1110v-20h230v-30" />
+<text x="1281" y="219" fill="black" stroke-width="0" font-size="8" text-anchor="end">6</text>
+<text x="1281" y="199" fill="black" stroke-width="0" font-size="8" text-anchor="end">1</text>
+<text x="1281" y="179" fill="black" stroke-width="0" font-size="8" text-anchor="end">3</text>
+<text x="1281" y="159" fill="black" stroke-width="0" font-size="8" text-anchor="end">5</text>
+<text x="1281" y="139" fill="black" stroke-width="0" font-size="8" text-anchor="end">7</text>
+<text x="1281" y="99" fill="black" stroke-width="0" font-size="8" text-anchor="end">4</text>
+<text x="1281" y="79" fill="black" stroke-width="0" font-size="8" text-anchor="end">0</text>
+</g>
+</g>
+</svg>

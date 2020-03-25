@@ -1,0 +1,78 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed Mar 25 08:23:49 2020
+| Host         : ubuntu-xenial running 64-bit Ubuntu 16.04.6 LTS
+| Command      : report_control_sets -verbose -file Top_Student_control_sets_placed.rpt
+| Design       : Top_Student
+| Device       : xc7a35t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    12 |
+| Unused register locations in slices containing registers |    28 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            1 |
+|      4 |            1 |
+|    16+ |           10 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             110 |           18 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             254 |           39 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             104 |           15 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------+-------------------------------------------+-------------------------------------------------+------------------+----------------+
+|           Clock Signal          |               Enable Signal               |                 Set/Reset Signal                | Slice Load Count | Bel Load Count |
++---------------------------------+-------------------------------------------+-------------------------------------------------+------------------+----------------+
+| ~clk_6p25m_BUFG                 |                                           |                                                 |                1 |              2 |
+|  clock_single_pulse/Q_reg       |                                           |                                                 |                1 |              4 |
+|  clock_20k/J_MIC3_Pin1_OBUF     |                                           |                                                 |                2 |             24 |
+| ~audio_capture/J_MIC3_Pin4_OBUF |                                           |                                                 |                3 |             24 |
+|  CLK100MHZ_IBUF_BUFG            |                                           | clock_20k/J_MIC3_Pin1_OBUF                      |                3 |             24 |
+| ~clk_6p25m_BUFG                 |                                           | nolabel_line49/dff1/reset                       |                7 |             36 |
+| ~clk_6p25m_BUFG                 | oled_display/delay[0]_i_1_n_0             | nolabel_line49/dff1/reset                       |                5 |             40 |
+|  CLK100MHZ_IBUF_BUFG            |                                           | clock_20k/clear                                 |                7 |             52 |
+|  CLK100MHZ_IBUF_BUFG            |                                           | clock_6p25m/clk_counter[0]_i_1__0_n_0           |                7 |             52 |
+|  CLK100MHZ_IBUF_BUFG            |                                           |                                                 |               11 |             56 |
+| ~clk_6p25m_BUFG                 | oled_display/FSM_onehot_state[31]_i_2_n_0 | nolabel_line49/dff1/reset                       |               10 |             64 |
+| ~clk_6p25m_BUFG                 |                                           | nolabel_line49/dff2/spi_word_bit_count_reg[5]_0 |               15 |             90 |
++---------------------------------+-------------------------------------------+-------------------------------------------------+------------------+----------------+
+
+
