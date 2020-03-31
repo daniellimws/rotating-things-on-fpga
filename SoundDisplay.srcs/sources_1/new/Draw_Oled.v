@@ -1,12 +1,16 @@
 `timescale 1ns / 1ps
 
 module Draw_Oled(
+    input CLK100MHZ,
     input [1:0] color_scheme,
     input [1:0] thickness_sel,
     input volume_bar_sel,
     input [3:0] volume_bar,
     input [12:0] pixel_index,
     output [15:0] oled_data);
+
+    wire clk_1;
+    Clock_Divider clock_1(.basys_clock(CLK100MHZ), .count_max(12499999), .clock(clk_1));
 
     `define RGB_TO_OLED(C, R, G, B) wire [15:0] C; assign C[15:11] = R * 31 / 255; assign C[10:5] = G * 63 / 255; assign C[4:0] = B * 31 / 255;
 
@@ -53,7 +57,7 @@ module Draw_Oled(
 
     Oled_Border oled_border(.on(thickness_sel[1]), .thickness(thickness), .pixel_index(pixel_index), .border_color(border_color), .in_oled_data(background_color));
     Oled_Volume_Bar oled_volume_bar(.on(volume_bar_sel), .pixel_index(pixel_index), .bar_color_high(bar_color_high), .bar_color_med(bar_color_med), .bar_color_low(bar_color_low), .in_oled_data(oled_border.out_oled_data), .volume_bar(volume_bar));
-    Oled_Pulse oled_pulse(.on(1), .pixel_index(pixel_index), .in_oled_data(oled_volume_bar.out_oled_data));
+    Oled_Pulse oled_pulse(.clock(CLK100MHZ), .on(1), .pixel_index(pixel_index), .in_oled_data(oled_volume_bar.out_oled_data), .volume(volume_bar));
     assign oled_data = oled_pulse.out_oled_data;
 
 endmodule

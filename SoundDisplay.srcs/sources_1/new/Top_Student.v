@@ -23,7 +23,7 @@ module Top_Student (
 
     input CLK100MHZ,
     input btnC,
-    input [6:0] sw,
+    input [10:0] sw,
     output [11:0] led
     );
 
@@ -42,6 +42,7 @@ module Top_Student (
     
     wire [3:0] volume_level;
     reg [3:0] volume_bar_level = 13;
+    assign volume_level = sw[10:7];
     // assign oled_data = 16'h07E0; // {5'b0, 6'd63, 5'b0};
 
     Clock_Divider clock_6p25m(.basys_clock(CLK100MHZ), .count_max(7), .clock(clk_6p25m));
@@ -49,13 +50,10 @@ module Top_Student (
     Single_Pulse(.clock(clk_sp), .button(btnC), .out(reset));
     Oled_Display oled_display(.clk(clk_6p25m), .reset(reset), .pixel_data(oled_data), .pixel_index(pixel_index), .cs(JX[0]), .sdin(JX[1]), .sclk(JX[3]), .d_cn(JX[4]), .resn(JX[5]), .vccen(JX[6]), .pmoden(JX[7]));
 
-    wire clk_1;
-    Clock_Divider clock_1(.basys_clock(CLK100MHZ), .count_max(49999999), .clock(clk_1));
-    Draw_Oled draw_oled(.color_scheme(sw[6:5]), .thickness_sel(sw[2:1]), .volume_bar_sel(sw[3]), .volume_bar(volume_bar_level), .pixel_index(pixel_index), .oled_data(oled_data));
+    Draw_Oled draw_oled(.CLK100MHZ(CLK100MHZ), .color_scheme(sw[6:5]), .thickness_sel(sw[2:1]), .volume_bar_sel(sw[3]), .volume_bar(volume_bar_level), .pixel_index(pixel_index), .oled_data(oled_data));
 
     always @ (posedge CLK100MHZ)
     begin
         volume_bar_level = sw[4] ? volume_level : volume_bar_level;
     end
-
 endmodule
