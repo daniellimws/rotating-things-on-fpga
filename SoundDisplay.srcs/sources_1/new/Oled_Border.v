@@ -16,7 +16,7 @@ module Oled_Border(
     assign pixel_y = pixel_index / Width;
 
     wire [15:0] out_color;
-    assign out_color = on && (pixel_y < thickness || pixel_x < thickness || pixel_x > (Width - thickness - 1) || pixel_y > (Height - thickness - 1)) ? in_oled_data | border_color : 0;
+    assign out_color = on && (pixel_y < thickness || pixel_x < thickness || pixel_x > (Width - thickness - 1) || pixel_y > (Height - thickness - 1)) ? border_color : 0;
     assign out_oled_data = out_color ? out_color : in_oled_data;
 
 endmodule

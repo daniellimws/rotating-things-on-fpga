@@ -15,24 +15,24 @@ module Draw_Oled(
     `define RGB_TO_OLED(C, R, G, B) wire [15:0] C; assign C[15:11] = R * 31 / 255; assign C[10:5] = G * 63 / 255; assign C[4:0] = B * 31 / 255;
 
     `RGB_TO_OLED(BG0, 0, 0, 0);
-    `RGB_TO_OLED(BG1, 'he6, 'h90, 'h57);
-    `RGB_TO_OLED(BG2, 'hc9, 'hf2, 'hc2);
+    `RGB_TO_OLED(BG1, 'h5c, 'h41, 'h66);
+    `RGB_TO_OLED(BG2, 'hee, 'hfc, 'he8);
 
     `RGB_TO_OLED(BORDER0, 255, 255, 255);
-    `RGB_TO_OLED(BORDER1, 'h57, 'h90, 'he6);
-    `RGB_TO_OLED(BORDER2, 'h22, 'h36, 'h66);
+    `RGB_TO_OLED(BORDER1, 'hfa, 'hce, 'hcf);
+    `RGB_TO_OLED(BORDER2, 'h3a, 'h3d, 'h39);
 
     `RGB_TO_OLED(BAR_COLOR_HIGH0, 255, 0, 0);
     `RGB_TO_OLED(BAR_COLOR_MED0, 255, 255, 0);
     `RGB_TO_OLED(BAR_COLOR_LOW0, 0, 255, 0);
 
-    `RGB_TO_OLED(BAR_COLOR_HIGH1, 'hc9, 'h57, 'he6);
-    `RGB_TO_OLED(BAR_COLOR_MED1, 'he6, 'hd8, 'h57);
-    `RGB_TO_OLED(BAR_COLOR_LOW1, 'h7c, 'hdb, 'h64);
+    `RGB_TO_OLED(BAR_COLOR_HIGH1, 'hf5, 'h80, 'h03);
+    `RGB_TO_OLED(BAR_COLOR_MED1, 'h11, 'h09, 'heb);
+    `RGB_TO_OLED(BAR_COLOR_LOW1, 'h04, 'hdb, 'h28);
 
-    `RGB_TO_OLED(BAR_COLOR_HIGH2, 'h66, 'h22, 'h2c);
-    `RGB_TO_OLED(BAR_COLOR_MED2, 'hc9, 'h57, 'he6);
-    `RGB_TO_OLED(BAR_COLOR_LOW2, 'h62, 'hac, 'h9c);
+    `RGB_TO_OLED(BAR_COLOR_HIGH2, 'h03, 'h81, 'hff);
+    `RGB_TO_OLED(BAR_COLOR_MED2, 'hff, 'h64, 'h03);
+    `RGB_TO_OLED(BAR_COLOR_LOW2, 'hff, 'h05, 'h44);
 
     wire [15:0] background_color, border_color, bar_color_high, bar_color_med, bar_color_low;
 
